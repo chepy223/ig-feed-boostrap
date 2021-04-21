@@ -1,0 +1,28 @@
+.insta{
+    height: 35px;
+    padding-top: 10px;
+}
+.imagen-Ig {
+    display: flex;
+}
+.col-sm-4 > img{
+    width: 100%;
+}
+
+
+
+a:link, a:visited, a:active, a:hover{
+    text-decoration:none;
+    color: black;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
